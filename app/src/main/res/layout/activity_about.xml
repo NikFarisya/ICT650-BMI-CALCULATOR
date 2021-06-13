@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191970"
+    tools:context=".About">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/bmi"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ABOUT"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/logo"
+        android:id="@+id/abouttext"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="3dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Developed by : \nICT650\nRCS2515A\nSITI SARAH (2020997339)\nNIK FARISYA (2020981053)"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/abouttext"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="3dp"
+        android:id="@+id/name">
+
+    </TextView>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/home"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonbackground"
+        android:textStyle="bold">
+
+    </android.widget.Button>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="GitHub link "
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/home"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="3dp"
+        android:id="@+id/link">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/linkgithb"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/link"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="3dp"
+        android:id="@+id/ghlink">
+
+    </TextView>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/ghlink"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="3dp"
+        android:text="Copyright &#169; 2021 Sarah and Farisya">
+
+    </TextView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

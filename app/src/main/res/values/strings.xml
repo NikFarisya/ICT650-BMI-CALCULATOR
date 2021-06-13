@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BmiCalculatorApplication</string>
+    <string name="linkgithb">
+        <a href="https://github.com/siti-sarah194/ict650.git">GitHub</a>
+    </string>
+</resources>
